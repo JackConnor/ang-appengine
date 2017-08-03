@@ -3,3 +3,100 @@
   padding: 1em;
   height: 1em;
 }
+
+body {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 500px;
+  height: 30px;
+  font-size: 20px;
+  color: #1e1e1e;
+  text-align: center;
+  border: 2px solid #1e1e1e;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+input[type="submit"] {
+  outline: none;
+  width: 500px;
+  height: 50px;
+  font-size: 20px;
+  color: #1e1e1e;
+  color: #8aacb8;
+  background-color: white;
+  border: 5px solid #8aacb8;
+  text-align: center;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+input[type="submit"]:hover {
+  background-color: #8aacb8;
+  color: white;
+  border: none;
+}
+
+label {
+  font-size: 22px;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.more-guests-button {
+  width: 250px;
+  height: 45px;
+  border: 3px solid grey;
+  outline: none;
+  color: grey;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 18px;
+}
+
+.more-guests-button:hover {
+  color: white;
+  background-color: grey;
+}
+
+.headline {
+  font-size: 25px;
+}
+
+.guest-list {
+  margin-top: 35px;
+}
+
+.crud-button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  outline: none;
+  background-color: grey;
+  color: white;
+}
+
+.crud-button:hover {
+  background-color: white;
+  color: grey;
+}
+
+.item-text {
+  margin-left: 20px;
+  font-size: 21px;
+}
+
+.guest-list-item {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.main-headline {
+  font-size: 32px;
+}
